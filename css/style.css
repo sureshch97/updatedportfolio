@@ -29,6 +29,10 @@ nav img{
     padding-left: 10%;
     
 }
+#projects .card {
+    height: 120px;
+    width: 150px;
+}
  i {
     size: 200%;
     
@@ -108,17 +112,22 @@ body{
     
 }
  footer{
-    margin-top:18%;
+    margin-top:0%;
 
 }
  footer i {
     padding:1.2rem;
+    
 
 }  
 
 @media(max-width:768px){
     #projects{
         padding-top: 15%;
+    }
+    #projects .card{
+        height:120px;
+        width: 150px;
     }
 }
 
@@ -134,6 +143,11 @@ body{
         padding-top: 40%;
     }
 
+    #projects .card{
+        height: 120px;
+        width: 150px;
+    }
+
     .navbar-nav .flex{
         flex-direction:column;
     }
@@ -147,6 +161,21 @@ body{
 
 
 
+    }
+
+}
+@media(max-width:320px){
+
+    #about , #experience  , #contact {
+        padding-top:70%;
+       
+    }
+    #projects{
+        padding-top: 70%;
+    }
+    #projects .card{
+        height: 100px;
+        width: 150px;
     }
 
 }
