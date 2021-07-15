@@ -1,0 +1,181 @@
+
+
+html,body{
+    width: 100%;
+     /* background-image: url("../images//diagoona-bg-3.jpg"); 
+     background-image: url("../images//diagoona-bg-3.jpg"); 
+     background-image: url("../images//diagoona-bg-3.jpg");  */
+    background-attachment:scroll;
+    background-repeat:inherit;
+    color: #fff;
+    
+    scroll-behavior: smooth;
+
+}
+nav img{
+    height: 100px;
+    width: auto;
+    transform: rotate(105deg);
+}
+#about , #experience  , #contact {
+    padding-top:15%;
+    padding-bottom: 15%;
+}
+#projects{
+    padding-top: 10%;
+    margin-left: 10%;
+}
+#projects h1 {
+    padding-left: 10%;
+    
+}
+#projects .card {
+    height: 120px;
+    width: 150px;
+}
+ i {
+    size: 200%;
+    
+}
+img{
+    height: 60px;
+    width: auto;
+}
+
+.mb-5{
+    margin-top: 20px;
+}
+.navbar{
+    padding: 20px;
+}
+.navbar-nav{
+    font-weight: bold;
+    padding-left: 20px;
+}
+.navbar-nav .nav-link{
+    padding-left: 20px;
+}
+/* ul li{
+    display: inline;
+} */
+/* .navbar ul a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+
+
+} */
+.navbar ul a:hover{
+    border-bottom: 1px #fff solid;
+
+}
+button div {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+  }
+.navbar-toggler-icon{
+    background-color: #fff;
+}
+body{
+    box-sizing: border-box;
+    line-height: 1.5rem;
+    background-color:rgb(0,0,0);
+    color:#fff;
+    
+    position: relative;
+    
+}
+.containers{
+    margin-left: 20% ;
+    margin-right:20% ;
+    margin-top:5% ;
+
+}
+.heading{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.containers p{
+    
+    font-size:30px;
+    line-height:3rem;
+}
+.card{
+    padding: 10px;
+    margin: 20px;
+    text-align: center !important;
+    color:black;
+    
+}
+ footer{
+    margin-top:0%;
+
+}
+ footer i {
+    padding:1.2rem;
+    
+
+}  
+
+@media(max-width:768px){
+    #projects{
+        padding-top: 15%;
+    }
+    #projects .card{
+        height:120px;
+        width: 150px;
+    }
+}
+
+@media(max-width:500px){
+
+   
+
+    #about , #experience  , #contact {
+        padding-top:40%;
+       
+    }
+    #projects{
+        padding-top: 40%;
+    }
+
+    #projects .card{
+        height: 120px;
+        width: 150px;
+    }
+
+    .navbar-nav .flex{
+        flex-direction:column;
+    }
+    #myLinks{
+        display:inline-block;
+    }
+
+    #name{
+
+        margin-right:20% ;
+
+
+
+    }
+
+}
+@media(max-width:320px){
+
+    #about , #experience  , #contact {
+        padding-top:70%;
+       
+    }
+    #projects{
+        padding-top: 70%;
+    }
+    #projects .card{
+        height: 100px;
+        width: 150px;
+    }
+
+}
